@@ -107,7 +107,6 @@ const AddStudent = ({ situation }) => {
                                 onChange={changeHandler} required>
                                 <option value='Select Class'>Select Class</option>
                                 {sclassesList.map((classItem, index) => {
-                                    console.log(classItem)
                                     return (
                                     <option key={index} value={classItem.sclassName}>
                                         {classItem.sclassName}
